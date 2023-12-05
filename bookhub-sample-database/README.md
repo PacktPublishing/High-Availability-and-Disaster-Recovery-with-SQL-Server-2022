@@ -151,10 +151,10 @@ If you encounter any issues related to the Bogus library not being found, double
 
 1. Open PowerShell.
 2. Navigate to the directory containing the script.
-3. Run the script using the command: `.\DataInsertionScript.ps1` with optional parameters for the number of rows. For example:
+3. Run the script using the command: `.\populate-db.ps1` with optional parameters for the number of rows. For example:
 
    ```powershell
-   .\DataInsertionScript.ps1 -UserCount 1000 -BookCount 500 -TransactionCount 2000 -ReviewCount 3000
+   .\populate-db.ps1 -UserCount 1000 -BookCount 500 -TransactionCount 2000 -ReviewCount 3000
    ```
 
 The script will execute and populate the database with the specified number of rows in each table.
